@@ -1,0 +1,44 @@
+.nav
+{
+	background: var(--c-blackT);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.nav span
+{
+	background-color: var(--c-white);
+	color: var(--c-bGreen);
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.nav section
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.nav section a
+{
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 5px;
+	color: var(--c-white);
+	font-weight: bold;
+	font-size: 18px;
+	transition: .5s all ease;
+}
+
+.nav section a:hover
+{
+	text-decoration: underline;
+}

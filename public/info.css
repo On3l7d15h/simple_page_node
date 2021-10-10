@@ -1,0 +1,60 @@
+.info
+{
+	width: 90%;
+	margin: 170px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.info  h1
+{
+	font-size: 40px;
+	width: 100%;
+	color: var(--c-white);
+	text-align: center;
+}
+
+.info .data
+{
+	width: 40%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 50px auto;
+}
+
+.info .data p
+{
+	font-size: 20px;
+	color: var(--c-white);
+	line-height: 1.5;
+}
+
+.info .data a
+{
+	width: 30px;
+	margin: 0 auto;
+	font-size: 40px;
+	color: var(--c-white);
+	transition: .5s all ease;
+}
+
+.info .data a:hover
+{
+	color: var(--c-green);
+	transform: scale(1.1);
+}
+
+.info .img
+{
+	width: 44%;
+	margin: 50px auto;
+}
+
+.info .img img
+{
+	width: 100%;
+}

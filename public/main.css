@@ -1,0 +1,20 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+:root
+{
+	--c-bBlue: rgba(43, 68, 83, 1);
+	--c-bGreen: rgba(43, 83, 61, 1);
+	--c-green: rgba(71, 239, 147, 1);
+	--c-blackT: rgba(0, 0, 0, 0.5);
+	--c-white: rgba(255, 255, 255, 1);
+}
+
+body
+{
+	background: linear-gradient(to left, var(--c-bBlue), var(--c-bGreen));
+}

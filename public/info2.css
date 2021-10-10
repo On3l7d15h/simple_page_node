@@ -1,0 +1,27 @@
+.info2 
+{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.info2 h1
+{
+	font-size: 40px;
+	border-bottom: 1px solid var(--c-white);
+	color: var(--c-white);
+	padding: 20px 0;
+}
+
+.info2 p
+{
+	font-size: 18px;
+	width: 20%;
+	margin: 10px auto;
+	color: var(--c-white);
+	text-align: center;
+}
